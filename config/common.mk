@@ -50,8 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
+#    vendor/cm/proprietary/RomManager.apk:system/app/RomManager.apk \
 PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/RomManager.apk:system/app/RomManager.apk \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
@@ -95,11 +95,11 @@ PRODUCT_PACKAGES += \
     MagicSmokeWallpapers \
     NoiseField \
     Galaxy4 \
-    LiveWallpapers \
     LiveWallpapersPicker \
     VisualizationWallpapers \
     PhaseBeam
 
+#    LiveWallpapers \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Trebuchet \
